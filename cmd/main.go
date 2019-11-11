@@ -8,9 +8,14 @@ import (
 )
 
 func main() {
+	http.HandleFunc("/", rootHandler)
 	http.HandleFunc("/blog", blogHandler)
 
 	log.Fatal(http.ListenAndServe(":8080", nil))
+}
+
+func rootHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello, root")
 }
 
 func blogHandler(w http.ResponseWriter, r *http.Request) {
