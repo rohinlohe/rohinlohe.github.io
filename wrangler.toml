@@ -1,0 +1,10 @@
+name = "blog-rohin"
+type = "webpack"
+account_id = "27a86babc892442dc13a482d07bd63c1"
+workers_dev = false
+route = "rohin.dev/*"
+zone_id = "268e24a80e4b94c1d8607b56dd0c769c"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"

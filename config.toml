@@ -1,0 +1,10 @@
+baseURL = "https://rohin.dev"
+languageCode = "en-us"
+title = "Why isn't my CSS working?"
+theme = "hermit"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
