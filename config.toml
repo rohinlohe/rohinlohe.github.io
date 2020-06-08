@@ -1,10 +1,43 @@
 baseURL = "https://rohin.dev"
 languageCode = "en-us"
-title = "Why isn't my CSS working?"
+defaultContentLangugae = "en"
+title = "Rohin Lohe"
 theme = "hermit"
+staticDir = ["static"]
 
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
+
+  homeSubtitle = "Systems Engineer at Cloudflare"
+
+  # Social Icons
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/rohinlohe"
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/rlohe"
+
+  [[params.social]]
+    name = "email"
+    url = "alohe@hmc.edu"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
+
+
+[author]
+  name = "Rohin Lohe"

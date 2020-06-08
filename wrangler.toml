@@ -1,4 +1,4 @@
-name = "blog-rohin"
+name = "website"
 type = "webpack"
 account_id = "27a86babc892442dc13a482d07bd63c1"
 workers_dev = false
