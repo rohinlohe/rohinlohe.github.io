@@ -13,9 +13,8 @@ This weekend I was trying to set up Python on my personal machine. I found that 
 
 Pyenv allows you to manage multiple Python versions, both global to your system and/or local to your projects. Pyenv updates your system `PATH` to intercept all python-related commands you make (i.e. `python`, `python3`, `python3.8`) with a set of shim-binaries. These binaries call pyenv, which runs the command with the correct installation of Python.
 
-First, install pyenv via Brew.
+First, install pyenv via [Brew](https://brew.sh/).
 ```
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" # Installs Brew
 $ brew install pyenv
 ```
 If you're running zsh (default on MacOS Catalina), then add the following line in your ~/.zshrc. Otherwise, add it to your `~/.bashrc` / `config.fish` / etc.
