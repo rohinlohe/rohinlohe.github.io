@@ -24,7 +24,7 @@ $ hexo generate
 
 ### To deploy utilizing Cloudflare Pages
 ```
-$ npx wrangler deploy public/
+$ npx wrangler deploy
 ```
 
 ### Files you will likely need to modify
